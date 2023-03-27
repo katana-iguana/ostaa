@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Ostaa</title>
+        <link rel="stylesheet"
+            type="text/css"
+            href="./style.css">
+    </head>
+
+    <body>
+        <form action="/add/user/" method="POST" id="newUserForm">
+            <div id="userDiv">
+                <h1>Add User</h1>
+
+                <div id="usernameDiv">
+                    <label for="username">Username <input type="text" id="username" name="username" required></label>
+                </div>
+
+                <div id="passwordDiv">
+                    <label for="password">Password <input type="text" id="password" name="password" required></label>
+                </div>
+
+                <div id="addUser">
+                    <button type="submit" id="addUserButton" name="addUserButton">Add User</button>
+                </div>
+
+            </div>
+        </form>
+
+        <form id="itemForm" method="POST">
+            <div id="itemDiv">
+                <h1>Add Item</h1>
+
+                <div id="titleDiv">
+                    <label for="title">Title <input type="text" id="title" name="title" required></label>
+                </div>
+
+                <div id="descDiv">
+                    <label for="desc">Desc <input type="text" id="desc" name="desc" required></label>
+                </div>
+
+                <div id="imgDiv">
+                    <label for="itemImg">Img <input type="text" id="itemImg" name="itemImg" required></label>
+                </div>
+
+                <div id="priceDiv">
+                    <label for="price">Price <input type="text" id="price" name="price" required></label>
+                </div>
+
+                <div id="statusDiv">
+                    <label for="status">Status <input type="text" id="status" name="status" required></label>
+                </div>
+
+                <div id="itemUser">
+                    <label for="itemUsername">Username <input type="text" id="itemUsername" name="itemUsername" required></label>
+                </div>
+
+                <div id="addItem">
+                    <button type="submit" id="addItemButton" name="addItemButton">Add Item</button>
+                </div>
+
+            </div>
+        </form>
+
+
+
+        <script src="./ostaaClient.js"></script>
+    </body>
+
+
+
+</html>
